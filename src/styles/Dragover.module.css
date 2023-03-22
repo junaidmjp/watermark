@@ -1,0 +1,23 @@
+.zone {
+  width: 40vw;
+  height: 100px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: dashed;
+  border-width: 2px;
+  font-size: large;
+  color: var(--text-primary);
+}
+
+@media screen and (max-width: 767px) {
+  .zone {
+    width: 55vw;
+  }
+}
+
+.focus {
+  background-color: darkorange;
+  opacity: 0.5;
+}
